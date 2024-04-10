@@ -1143,8 +1143,9 @@ img {
 .sec-title {
   font-size: 70px;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1;
   color: var(--primary);
+  margin-right: 50px;
 }
 .dark .sec-title {
   color: var(--green);
@@ -1152,11 +1153,13 @@ img {
 @media (max-width: 1399px) {
   .sec-title {
     font-size: 60px;
+    
   }
 }
 @media (max-width: 1199px) {
   .sec-title {
     font-size: 48px;
+    margin-right: 70px;
   }
 }
 @media (max-width: 991px) {
