@@ -68,6 +68,10 @@
 /*----------------------------------------*/
 /*  01. SPACE CSS START
 /*----------------------------------------*/
+html body{
+  scroll-behavior: smooth;
+}
+
 .pb-100 {
   padding-bottom: 100px;
 }
@@ -3343,6 +3347,11 @@ img {
   margin-top: -50px;
   -webkit-animation: moveBottom 5s linear infinite;
           animation: moveBottom 5s linear infinite;
+}
+.hero__shape-circle {
+  margin-top: -50px;
+  -webkit-animation: moveLeft 5s linear infinite;
+          animation: moveLeft 5s linear infinite;
 }
 @media (max-width: 767px) {
   .hero__shape img {

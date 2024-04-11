@@ -44,6 +44,17 @@
     border-radius: 3%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+.new-section-leftside{
+    position: relative;
+      display: flex;
+      flex-direction: column;
+}
+.circle-image{
+    position: absolute;
+      width: 100px; /* Adjust the size as needed */
+      height: auto;
+      transition: transform 0.5s ease;  
+}
 
 
 .new-section-card-outer {
@@ -451,3 +462,5 @@
     }
 
 }
+
+/* ABout Us Page Css */
