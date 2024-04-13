@@ -157,13 +157,15 @@
             <div class="contact__right cxu-fade" data-ease="back">
               <div class="contact__form">
                 <h3 class="title">Send us a message </h3>
-                <form action="#">
+                <form id="contact-with-us" action="https://script.google.com/macros/s/AKfycbwGAMJ3-2V-L3Us3GVZDf2YbS0gp7GA5OGEvZz2dEQKXVMbm7t613ZRtH8hYiJrjIME/exec">
                   <input type="text" required maxlength="25" placeholder="Your full name" name="name">
                   <input type="email" required placeholder="Email address" name="email">
                   <input type="tel" required placeholder="Phone" name="phone">
                   <textarea name="message" required placeholder="Write your message here..."></textarea>
                   <button type="submit" class="submit cxu-btn-primary">Submit Now <i
                       class="fa-solid fa-arrow-right"></i></button>
+                      <div id="alertMessage" style="display: none;"></div>
+                      
                 </form>
               </div>
             </div>
@@ -290,6 +292,7 @@
   <script src="assets/js/SplitText.min.js"></script>
   <script src="assets/js/jquery.magnific-popup.min.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="./assets/js/form.js"></script>
 </body>
 
 </html>
